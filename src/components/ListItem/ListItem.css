@@ -1,0 +1,48 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.list{
+    color: #fff;
+    width: 450px;
+    background-color: #bf07ac;
+    height: 40px;
+    margin:10px 0 0 20px;
+    
+    border-radius: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.list p{
+    padding: 10px;
+    position: relative;
+    
+}
+.list p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+   
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    width: 300px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.list p input:focus{
+    outline: none;
+}

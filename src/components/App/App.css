@@ -1,0 +1,64 @@
+body{
+  background-color: #8db596;
+ 
+}
+
+* {
+  font-family: 'Aleo', serif;
+}
+
+#heading{
+  /* text-align: center; */
+  margin: 10px;
+  padding: 5px 10px;
+  color: #52057b;
+  text-decoration:chocolate;
+  font-size: 40px;
+  
+}
+
+.App{
+  background-color: #fc8621;
+  min-height: 600px;
+  width: 500px;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#todo-form input{
+  background-color: #79a3b1;
+  border: 0;
+  color: black;
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 6px;
+
+}
+
+#todo-form input::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+
+}
+#todo-form input:focus{
+  outline: none;
+}
+
+
+#todo-form button{
+  height: 35px;
+  width: 80px;
+  border-radius: 5px;
+  border: 3px solid black;
+  font-size: 14px;
+  background-color: #b088f9;
+  cursor: pointer;
+
+}
+
+#todo-form button:focus{
+  outline: none;
+}

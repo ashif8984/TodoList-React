@@ -1,5 +1,4 @@
 import React from "react"
-// import TodoList from "./Tod"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "./ListItem.css"
 import FlipMove from "react-flip-move"

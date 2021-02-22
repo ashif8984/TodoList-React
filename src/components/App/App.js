@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ListItems from '../ListItem/ListItem';
-import "./TodoList.css"
+import "./App.css"
 
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faTrash } from "@fortawesome/free-solid-svg-icons"
 
 library.add(faTrash);
 
-class TodoList extends React.Component{
+class App extends React.Component{
     constructor(props){
         super(props);
 
@@ -108,4 +108,4 @@ class TodoList extends React.Component{
 
 }
 
-export default TodoList;
+export default App;
